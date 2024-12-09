@@ -52,6 +52,8 @@ public class ArrayTest06 {
         2. "git status" : 어떤 파일이 변경되었는지 보여주는 명령어
 
         3. "git commit -m" : "깃허브에 올리는 메모"
+        
+        4. "git push" : 저장소에 "밀어올리는" 명령어
      */
 
 

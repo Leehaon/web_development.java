@@ -2,7 +2,7 @@ package c11_access_modifiers;
 
 public class StudentAccessModifierMain {
     public static void main(String[] args) {
-        // 객체 생성을ㄹ 기본 생성자를 통해서 할 것
+        // 객체 생성을 기본 생성자를 통해서 할 것
         StudentAccessModifier student1 = new StudentAccessModifier();
 
         // setter를 통해서 데이터 입력
@@ -33,6 +33,6 @@ public class StudentAccessModifierMain {
         // 코드가 다릅니다. 주의하시기 바랍니다.
         student2.showInfo();
 
-        // 다하신 분들은 새로운 패키지르 만들어주세요 c12_arrays -> class ArrayTest01로 만들어주세요
+        // 다하신 분들은 새로운 패키지를 만들어주세요 c12_arrays -> class ArrayTest01로 만들어주세요
     }
 }
