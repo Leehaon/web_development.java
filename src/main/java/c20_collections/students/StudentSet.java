@@ -103,8 +103,11 @@ public class StudentSet {
         for (int i = 0; i < studentList.size(); i++) {
             studentList.remove(i);
         }
-        System.out.println(sortedStudents);
+        System.out.println("정렬된 list : " + sortedStudents);
+
+        /*
+            c21_json 패키지 생성
+            JSON01.java 생성
+         */
     }
 }
-
-//}

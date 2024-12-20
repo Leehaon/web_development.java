@@ -12,9 +12,9 @@ repositories {
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
-    compileOnly("org.projectlombok:lombok:1.18.36") // 롬복 의존성
+    compileOnly("org.projectlombok:lombok:1.18.36")
     annotationProcessor("org.projectlombok:lombok:1.18.36")
-
+    implementation("com.google.code.gson:gson:2.11.0")
 
 }
 
