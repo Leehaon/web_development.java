@@ -47,7 +47,7 @@ public class StringMap {
         map.put("1335", "이하동");
         System.out.println("수정 1 후 map 출력 : " + map);
 
-        // 특정 키의 값 수정 2 ->
+        // 특정 키의 값 수정 2 -> .replace()를 사용
         map.replace("1335", "이하동");
         System.out.println("수정 2 후 map 출력 : " + map);
 
